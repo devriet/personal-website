@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--color3);
+    color: var(--color1);
+    margin: 0;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: var(--color1);
+    font-size: xx-large;
+    transition: color var(--ease-in-out-time) ease-in-out;
+}
+
+.footer ul li a:hover {
+    color: var(--hover-color);
+}

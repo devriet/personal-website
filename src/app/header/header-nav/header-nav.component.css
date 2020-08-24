@@ -1,0 +1,19 @@
+.header-nav ul {
+    list-style: none;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: var(--color1);
+    transition: color var(--ease-in-out-time) ease-in-out;
+}
+
+
+.header-nav ul li a:hover {
+    color: var(--hover-color);
+}

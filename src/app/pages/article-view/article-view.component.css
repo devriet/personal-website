@@ -1,0 +1,14 @@
+h1 a {
+    text-decoration: none;
+    color: var(--color3);
+    margin: 0 20px;
+    transition: color var(--ease-in-out-time) ease-in-out;
+}
+
+h1 a:hover {
+    color: var(--hover-color-alt);
+}
+
+.articleContent {
+    margin: 10px;
+}

@@ -1,0 +1,6 @@
+<h1>Programming Topics</h1>
+<ul>
+    <li *ngFor="let articleRef of programmingPages">
+        <h2><a href="/programming/{{articleRef.pagePath}}">{{articleRef.pageTitle}}</a></h2>
+    </li>
+</ul>
